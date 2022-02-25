@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/style.css";
-import { Container, Row, Col, Button, Card } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
