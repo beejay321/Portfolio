@@ -20,8 +20,15 @@ function ContactMe(props) {
         </Col>
         <div className="socials-div pt-4 d-flex gap-5 justify-content-center">
           <span>GitHub</span>
-          <span>LINKEDIN</span>
-          <span>EMAIL</span>
+          <a href="https://www.linkedin.com/in/oluwabusola-jibodu-869418125/" target="_blank">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+            {/* <span>LINKEDIN</span> */}
+          </a>
+          <a href="mailto:jibodu.busola@gmail.com">
+            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+            {/* <span>EMAIL</span> */}
+          </a>
+          
         </div>
       </Row>
     </Container>

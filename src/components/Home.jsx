@@ -8,7 +8,7 @@ import ContactMe from "./ContactMe";
 function Home(props) {
   return (
     <>
-      <Container fluid className=" heading-box">
+      <Container fluid className=" heading-box m-0">
         <Row className=" heading">
           <h1 className="name d-flex justify-content-center">OLUWABUSOLA JIBODU</h1>
           <h5 className="title d-flex justify-content-center">FULL STACK DEVELOPER</h5>
@@ -18,7 +18,9 @@ function Home(props) {
               My Projects
             </Button>
             <Button variant="light" className="header-btns d-flex justify-content-center">
-              Resume
+              <a href="https://drive.google.com/file/d/16wGgYW-QQPq7NfHrhIapZq2hSIwITBD4/view?usp=sharing" target="_blank">
+                Resume
+              </a>
             </Button>
           </div>
         </Row>
