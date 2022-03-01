@@ -18,7 +18,7 @@ function Home(props) {
               My Projects
             </Button>
             <Button variant="light" className="header-btns d-flex justify-content-center">
-              <a href="https://drive.google.com/file/d/16wGgYW-QQPq7NfHrhIapZq2hSIwITBD4/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/16wGgYW-QQPq7NfHrhIapZq2hSIwITBD4/view?usp=sharing" target="_blank" rel="noreferrer" >
                 Resume
               </a>
             </Button>
