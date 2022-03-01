@@ -1,9 +1,9 @@
 .heading-box {
   height: 95vh;
   background-color: peru;
-  /* background-size: cover; */
-  /* background-position: top; */
-  clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+  background-size: cover;
+  background-position: top;
+  /* clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%); */
 }
 
 .heading {
@@ -47,16 +47,31 @@
 .skills-div {
   padding: 20px;
   background-color: blueviolet;
+  justify-content: center;
   width: 180px;
 }
+
+.skills-div p,
+span {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-div {
   padding: 20px;
   width: 650px;
 }
 .project-div {
   padding: 20px;
+  justify-content: center;
   background-color: blueviolet;
   width: 250px;
+}
+
+.project-div p,
+span {
+  display: flex;
+  justify-content: center;
 }
 
 .socials-div {
