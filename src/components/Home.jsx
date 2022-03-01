@@ -8,7 +8,7 @@ import ContactMe from "./ContactMe";
 function Home(props) {
   return (
     <>
-      <Container fluid className=" heading-box m-0">
+      <Container fluid className=" heading-box m-0 ">
         <Row className=" heading">
           <h1 className="name d-flex justify-content-center">OLUWABUSOLA JIBODU</h1>
           <h5 className="title d-flex justify-content-center">FULL STACK DEVELOPER</h5>
@@ -25,9 +25,17 @@ function Home(props) {
           </div>
         </Row>
       </Container>
-      <Skills />
-      <Projects />
-      <ContactMe />
+      <Container>
+        <Row>
+          <Skills />
+        </Row>
+        <Row>
+          <Projects />
+        </Row>
+        <Row>
+          <ContactMe />
+        </Row>
+      </Container>
     </>
   );
 }
