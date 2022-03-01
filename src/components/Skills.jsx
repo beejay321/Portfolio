@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-
 function Skills(props) {
-    return (
-        <Container className=" py-5">
+  return (
+    <>
+      <Container className=" py-5">
         <Row>
           <div>
             <h5 className=" title d-flex pb-3 justify-content-center">SKILLS</h5>
@@ -17,14 +17,14 @@ function Skills(props) {
           </Col>
           <Col>
             <div className=" d-flex gap-5">
-              <div className=" d-grid skills-div">
-                <h6>FRONT END</h6>
+              <div className=" d-grid skills-div justify-content-center">
+                <p>FRONTEND</p>
                 <span>HTML5</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
-                <span>React | Redux</span>
+                <span>React|Redux</span>
               </div>
-              <div className=" d-grid skills-div">
+              <div className=" d-grid skills-div justify-content-center">
                 <p>TOOLS</p>
                 <span>Git</span>
                 <span>Heroku</span>
@@ -32,8 +32,8 @@ function Skills(props) {
                 <span>Agile</span>
                 <span>Bootstrap</span>
               </div>
-              <div className=" d-grid skills-div">
-                <p>BACK END</p>
+              <div className=" d-grid skills-div justify-content-center">
+                <p>BACKEND</p>
                 <span>Node.JS</span>
                 <span>Express</span>
                 <span>MongoDB</span>
@@ -43,7 +43,8 @@ function Skills(props) {
           </Col>
         </Row>
       </Container>
-    );
+    </>
+  );
 }
 
 export default Skills;
