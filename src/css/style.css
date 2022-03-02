@@ -1,13 +1,20 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/******** HOME COMPONENT *********/
 .heading-box {
-  height: 95vh;
+  height: 80vh;
   background-color: peru;
   background-size: cover;
   background-position: top;
-  /* clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%); */
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
 }
 
 .heading {
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   /* top: 40%; */
   /* left: 20%; */
@@ -43,16 +50,81 @@
 .header-btns-div {
   margin: 10px;
 }
+/******** PROJECT COMPONENT *********/
 
+.project-container {
+  padding: 20px;
+  background-color: white;
+
+  /* justify-content: center; */
+}
+.project-div {
+  padding: 20px;
+  background-color: white;
+
+  /* justify-content: center; */
+}
+.project-title {
+  font-size: 1.6em;
+  display: block;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.skills-used {
+  display: flex;
+  justify-content: center;
+}
+.skills-used span {
+  display: flex;
+  justify-content: center;
+  margin-right: 6px;
+  padding: 2px;
+  font-size: 0.9em;
+  font-weight: 700;
+  background-color: grey;
+  color: white;
+  min-width: 80px;
+  height: 35px;
+  align-items: center;
+}
+.proj-views span {
+  display: flex;
+  justify-content: center;
+  border: 2px solid peru;
+  background-color: white;
+  font-weight: 600;
+  color: peru;
+  width: 120px;
+  height: 33px;
+  align-items: center;
+}
+
+.collaborator {
+  padding-top: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  display: block;
+  font-weight: 600;
+}
+
+/******** SKILlS COMPONENT *********/
+/* .skills-box {
+  /* height: 80vh; */
+/* background-color: peru; */
+/* background-size: cover; */
+/* background-position: top; */
+/* clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%); 
+} */
 .skills-div {
   padding: 20px;
+  /* margin-top: 20%; */
   background-color: blueviolet;
   justify-content: center;
   width: 180px;
 }
 
-.skills-div p,
-span {
+.skills-div span {
   display: flex;
   justify-content: center;
 }
@@ -61,21 +133,26 @@ span {
   padding: 20px;
   width: 650px;
 }
-.project-div {
-  padding: 20px;
-  justify-content: center;
-  background-color: blueviolet;
-  width: 250px;
-}
-
-.project-div p,
-span {
-  display: flex;
-  justify-content: center;
-}
 
 .socials-div {
   background-color: blueviolet;
   height: 70px;
   bottom: 0px;
+}
+
+/******** ABOUT COMPONENT *********/
+.resume {
+  display: flex;
+  justify-content: center;
+}
+.resume span {
+  display: flex;
+  justify-content: center;
+  border: 2px solid peru;
+  background-color: white;
+  font-weight: 600;
+  color: peru;
+  width: 120px;
+  height: 33px;
+  align-items: center;
 }
