@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col,  Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function Projects(props) {
   return (
-    <Container className=" py-5">
+    <Container className="project-container py-5">
       <Row>
         <div>
           <h5 className=" title d-flex pb-3 justify-content-center">MY PROJECTS</h5>
