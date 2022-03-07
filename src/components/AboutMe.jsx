@@ -3,13 +3,13 @@ import { Container, Row } from "react-bootstrap";
 
 function AboutMe(props) {
   return (
-    <Container className=" pt-5">
-      <Row>
+    <Container className=" aboutSection py-5">
+      <Row className="  py-5">
         <div>
-          <h5 className=" title d-flex pb-3 justify-content-center">ABOUT</h5>
+          <h5 className=" title d-flex py-3 justify-content-center">ABOUT</h5>
         </div>
-      </Row>
-      <Row>
+      {/* </Row>
+      <Row> */}
         <div className="aboutText d-flex gap-2">
           <span>
             An architect turned web developer. In 2021, I took a leap and trained in Full stack web development at Strive School. I quickly absorbed new concepts, while bringing ambitious ideas and a
