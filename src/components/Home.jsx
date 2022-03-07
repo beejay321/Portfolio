@@ -12,9 +12,9 @@ function Home(props) {
       <Container fluid className=" heading  ">
         <Row className=" heading-box   ">
           <div>
-            <h1 className="name d-flex justify-content-center">OLUWABUSOLA JIBODU</h1>
-            <h5 className="title d-flex justify-content-center">FULL STACK DEVELOPER</h5>
-            <div className=" nav-links d-flex ">
+            <h1 className="name ">OLUWABUSOLA JIBODU</h1>
+            <h5 className="title ">FULL STACK DEVELOPER</h5>
+            <div className=" nav-links  ">
               <a href="/#skills">
                 <span>SKILLS</span>
               </a>
@@ -32,9 +32,9 @@ function Home(props) {
         </Row>
       </Container>
       {/* <Container> */}
-        <Row id="skills">
-          <Skills />
-        </Row>
+      <Row id="skills">
+        <Skills />
+      </Row>
       {/* </Container> */}
       <div id="projects">
         <Projects />
