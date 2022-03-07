@@ -4,14 +4,14 @@ import { Container, Row, Col } from "react-bootstrap";
 function Skills(props) {
   return (
     <>
-      <Container className=" sth py-5">
-        <Row className=" skills-box mx-1">
+      <Container fluid className="skills-section  ">
+        <Row className=" skills-box mx-1 my-5 py-5">
           <div>
-            <h5 className=" title d-flex pb-3 justify-content-center">SKILLS</h5>
+            <h5 className=" title d-flex justify-content-center pb-3">SKILLS</h5>
           </div>
-          <Col xs={12}  lg={3} className=" d-grid skills-div justify-content-center">
-            <p className="skill-category">FRONTEND</p>
+          <Col xs={12} lg={3} className=" d-grid skills-div  justify-content-center">
             <div className="skill">
+              <p className="skill-category">FRONTEND</p>
               <span>HTML5</span>
               <span>CSS</span>
               <span>JavaScript</span>
@@ -19,9 +19,9 @@ function Skills(props) {
               <span>React|Redux</span>
             </div>
           </Col>
-          <Col xs={12}  lg={3} className=" d-grid skills-div justify-content-center ">
-            <p className="skill-category">TOOLS</p>
+          <Col xs={12} lg={3} className=" d-grid skills-div justify-content-center ">
             <div className="skill">
+              <p className="skill-category">TOOLS</p>
               <span>Git</span>
               <span>Heroku</span>
               <span>OAuth</span>
@@ -29,9 +29,9 @@ function Skills(props) {
               <span>Bootstrap</span>
             </div>
           </Col>
-          <Col xs={12}  lg={3} className=" d-grid skills-div justify-content-center ">
-            <p className="skill-category">BACKEND</p>
+          <Col xs={12} lg={3} className=" d-grid skills-div justify-content-center ">
             <div className="skill">
+              <p className="skill-category">BACKEND</p>
               <span>Node</span>
               <span>Express</span>
               <span>MongoDB</span>
@@ -39,8 +39,6 @@ function Skills(props) {
               <span>RESTful API</span>
             </div>
           </Col>
-
-         
         </Row>
       </Container>
     </>
