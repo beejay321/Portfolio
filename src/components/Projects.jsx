@@ -7,7 +7,7 @@ function Projects(props) {
     <Container className="project-container py-5">
       <Row>
         <div>
-          <h5 className=" title pb-3 d-flex justify-content-center">PROJECTS</h5>
+          <h5 className=" sections pb-3 d-flex justify-content-center">PROJECTS</h5>
         </div>
       </Row>
 
