@@ -7,7 +7,7 @@ function Skills(props) {
       <Container fluid className="skills-section  ">
         <Row className=" skills-box mx-1 my-5 py-5">
           <div>
-            <h5 className=" title d-flex justify-content-center pb-3">SKILLS</h5>
+            <h5 className=" sections d-flex justify-content-center pb-3">SKILLS</h5>
           </div>
           <Col xs={12} lg={3} className=" d-grid skills-div  justify-content-center">
             <div className="skill">
