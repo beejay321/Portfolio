@@ -26,7 +26,7 @@ function EachProject({ projectTitle, collaborators, description, sourceCode, liv
               <span>{description} </span>
             </p>
 
-            <div className=" proj-views d-flex gap-2">
+            <div className=" proj-views d-flex ">
               <a href={live} target="_blank" rel="noreferrer">
                 <span>Live Demo</span>
               </a>
