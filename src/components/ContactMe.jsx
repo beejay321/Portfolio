@@ -20,7 +20,7 @@ function ContactMe(props) {
         </Col>
       </Row>
       <Row>
-        <div className="socials-div pt-4 d-flex gap-5 justify-content-center">
+        <div className="socials-div pb-4 d-flex gap-5 justify-content-center">
           <a href="https://github.com/beejay321" target="_blank" rel="noreferrer">
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github icon" />
           </a>
