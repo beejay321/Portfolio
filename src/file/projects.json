@@ -1,0 +1,68 @@
+[
+    {
+        "projectTitle": "CLIENT CONNECT",
+        "collaborators": "Solo Project",
+        "sourceCode": "https://github.com/beejay321/Capstone",
+        "live": "https://clientconnect-fawn.vercel.app/",
+        "description": "A marketplace website to connect freelancers to clients with freelance job. Freelancers have the ability to bid for projects they believe they are qualified for and the clients will choose which freelancers they feel suits best.",
+        "skills": [
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Redux",
+            "Bootstrap",
+            "Node.js",
+            "MongoDB",
+            "OAuth",
+            "GIT"
+        ],
+        "images": ["https://via.placeholder.com/600x350"]
+    },
+    {
+        "projectTitle": "WEATHERSAYS",
+        "collaborators": "Solo Project",
+        "sourceCode": "https://github.com/beejay321/MyWeather_App",
+        "live": "",
+        "description": "A website that basically tells the weather conditions for different locations if searched for.",
+        "skills": [
+            "HTML5",
+            "CSS",
+            "TypeScript",
+            "React",
+            "Bootstrap",
+            "GIT"
+        ],
+        "images": [
+            "https://via.placeholder.com/600x350",
+            "https://via.placeholder.com/600x350"
+        ]
+    },
+    {
+        "projectTitle": "TRAVELGO",
+        "collaborators": "Solo Project",
+        "sourceCode": "https://github.com/beejay321/Travel_go",
+        "live": "",
+        "description": "A travel log website for travellers get relevant information about prosective vacation destinations and also share experiences and information on previous vacation destinations.",
+        "skills": [
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "Node.js",
+            "MongoDB",
+            "GIT"
+        ],
+        "images": ["https://via.placeholder.com/600x350"]
+    },
+    {
+        "projectTitle": "",
+        "collaborators": "",
+        "sourceCode": "",
+        "live": "",
+        "description": "",
+        "skills": [],
+        "images": []
+    }
+]
