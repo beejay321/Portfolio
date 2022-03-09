@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Image, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel } from "react-bootstrap";
 
 function EachProject({ project }) {
   return (
