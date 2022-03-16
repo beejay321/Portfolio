@@ -17,7 +17,12 @@
             "OAuth",
             "GIT"
         ],
-        "images": ["https://via.placeholder.com/600x350"]
+        "images": [
+            "https://res.cloudinary.com/dvyids286/image/upload/v1647426595/portfolio/jouj1fawgiso3jph9arp.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1647426662/portfolio/srclyvdqqf0cbla1g2pn.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1647426683/portfolio/hbxojaesovtr36pr469n.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1647426706/portfolio/leyc9v0wohcnzzix4ocn.png"
+        ]
     },
     {
         "projectTitle": "WEATHERSAYS",
@@ -54,7 +59,9 @@
             "MongoDB",
             "GIT"
         ],
-        "images": ["https://via.placeholder.com/600x350"]
+        "images": [
+            "https://via.placeholder.com/600x350"
+        ]
     },
     {
         "projectTitle": "",
