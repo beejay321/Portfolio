@@ -39,7 +39,6 @@
             "GIT"
         ],
         "images": [
-            "https://via.placeholder.com/600x350",
             "https://via.placeholder.com/600x350"
         ]
     },
@@ -64,12 +63,23 @@
         ]
     },
     {
-        "projectTitle": "",
-        "collaborators": "",
-        "sourceCode": "",
+        "projectTitle": "QuestionEditor",
+        "collaborators": "Solo Project",
+        "sourceCode": "https://github.com/beejay321/question_editor",
         "live": "",
         "description": "",
-        "skills": [],
-        "images": []
+        "skills": [
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "Node.js",
+            "MongoDB",
+            "GIT"
+        ],
+        "images": [
+            "https://via.placeholder.com/600x350"
+        ]
     }
 ]
