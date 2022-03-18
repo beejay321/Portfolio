@@ -2,7 +2,7 @@
     {
         "projectTitle": "CLIENT CONNECT",
         "collaborators": "Solo Project",
-        "sourceCode": "https://github.com/beejay321/Capstone",
+        "sourceCode": "https://github.com/beejay321/ClientConnect",
         "live": "https://clientconnect-fawn.vercel.app/",
         "description": "A marketplace website to connect freelancers to clients with freelance job. Freelancers have the ability to bid for projects they believe they are qualified for and the clients will choose which freelancers they feel suits best.",
         "skills": [
@@ -28,7 +28,7 @@
         "projectTitle": "WEATHERSAYS",
         "collaborators": "Solo Project",
         "sourceCode": "https://github.com/beejay321/MyWeather_App",
-        "live": "",
+        "live": "https://weather-says.vercel.app/",
         "description": "A website that basically tells the weather conditions for different locations if searched for.",
         "skills": [
             "HTML5",
@@ -39,7 +39,7 @@
             "GIT"
         ],
         "images": [
-            "https://via.placeholder.com/600x350"
+            "https://res.cloudinary.com/dvyids286/image/upload/v1647619558/portfolio/ox46wprmo4x1qq9qumnw.png"
         ]
     },
     {
@@ -67,11 +67,8 @@
         "collaborators": "Solo Project",
         "sourceCode": "https://github.com/beejay321/question_editor",
         "live": "",
-        "description": "",
-        "skills": [
-            "HTML5",
-            "CSS",
-            "JavaScript",
+        "description": "Question Editor for a Radio Button Matrix (MERN stack)",
+        "skills": [            
             "React",
             "Bootstrap",
             "Node.js",
