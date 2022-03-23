@@ -61,22 +61,6 @@
         "images": [
             "https://via.placeholder.com/600x350"
         ]
-    },
-    {
-        "projectTitle": "QuestionEditor",
-        "collaborators": "Solo Project",
-        "sourceCode": "https://github.com/beejay321/question_editor",
-        "live": "",
-        "description": "Question Editor for a Radio Button Matrix (MERN stack)",
-        "skills": [            
-            "React",
-            "Bootstrap",
-            "Node.js",
-            "MongoDB",
-            "GIT"
-        ],
-        "images": [
-            "https://res.cloudinary.com/dvyids286/image/upload/v1647622843/portfolio/e0pr0nvtc1lcxy4xavos.png"
-        ]
     }
+    
 ]

@@ -15,7 +15,6 @@ function Projects(props) {
       <EachProject project={projects[0]} />
       <EachProject project={projects[1]} />
       {/* <EachProject project={projects[2]} /> */}
-      <EachProject project={projects[3]} />
     </Container>
   );
 }
