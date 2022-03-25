@@ -61,6 +61,23 @@
         "images": [
             "https://via.placeholder.com/600x350"
         ]
+    },
+    {
+        "projectTitle": "MyMusicApp ",
+        "collaborators": "Solo Project",
+        "sourceCode": "https://github.com/beejay321/myMusic_App",
+        "live": "https://my-music-nine.vercel.app/",
+        "description": "Music App showing Albums with tracks by Artist, when searched for. User is able to view each album, and play songs selected. ",
+        "skills": [ 
+            "HTML5",
+            "CSS",
+            "JavaScript",           
+            "React",
+            "Bootstrap",            
+            "GIT"
+        ],
+        "images": [
+            "https://via.placeholder.com/600x350"
+        ]
     }
-    
 ]
