@@ -8,7 +8,7 @@ function AboutMe(props) {
         <div>
           <h5 className=" title d-flex py-3 justify-content-center">ABOUT</h5>
         </div>
-      {/* </Row>
+        {/* </Row>
       <Row> */}
         <div className="aboutText d-flex gap-2">
           <span>
@@ -17,7 +17,7 @@ function AboutMe(props) {
           </span>
         </div>
         <div className=" resume d-flex gap-2">
-          <a href="https://drive.google.com/file/d/1aQRIDh-Z4E5SxXHz7z9j1_6p_xP3P3hL/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1ubctSFFgJf-1jXhqxmuhNvuH5I-9JBou/view?usp=sharing" target="_blank" rel="noreferrer">
             <span>RESUME</span>
           </a>
         </div>
