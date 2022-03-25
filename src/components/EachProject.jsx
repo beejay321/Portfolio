@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function EachProject({ project }) {
   return (
@@ -23,8 +24,8 @@ function EachProject({ project }) {
           </Row>
           <div className=" proj-views d-flex ">
             {/* <a href={project.live} target="_blank" rel="noreferrer">
-                <span>Live Demo</span>
-              </a> */}
+              <span>Live Demo</span>
+            </a> */}
             <a href={project.sourceCode} target="_blank" rel="noreferrer">
               <span>Source Code</span>
             </a>
@@ -36,9 +37,11 @@ function EachProject({ project }) {
         <Col xs={12} lg={6}>
           <Carousel fade>
             {project.images.map((image) => (
-              <Carousel.Item className=" imageBox pt-3">
-                <img className="d-block w-100 imageFit" src={image} alt="" />
-              </Carousel.Item>
+              <Link to={project.live}>
+                <Carousel.Item className=" imageBox pt-3">
+                  <img className="d-block w-100 imageFit" src={image} alt="" />
+                </Carousel.Item>
+              </Link>
             ))}
           </Carousel>
         </Col>
