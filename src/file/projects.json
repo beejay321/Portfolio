@@ -18,10 +18,12 @@
             "GIT"
         ],
         "images": [
-            "https://res.cloudinary.com/dvyids286/image/upload/v1647438177/portfolio/cd4vyhogj01rxdkrskxe.png",
-            "https://res.cloudinary.com/dvyids286/image/upload/v1647437986/portfolio/cbx0qjk6f4qcyqod1bxg.png",
-            "https://res.cloudinary.com/dvyids286/image/upload/v1647437879/portfolio/qikfx7jc0wx9pmh5zowp.png",
-            "https://res.cloudinary.com/dvyids286/image/upload/v1647437932/portfolio/cexupoloxeaxvqga6uos.png"
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356198/portfolio/dw3ahv8iiwbu4nrey5ix.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356053/portfolio/icclhwasomcnmzp60n7x.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356108/portfolio/i7rp4c2tvyhdsn4ss4ir.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356155/portfolio/zthhlkbz4ug8rp7nhfut.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356173/portfolio/ujwoc3wioayemcmq8lvv.png",
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356246/portfolio/s2in7cjunmryy7tqjjer.png"
         ]
     },
     {
@@ -68,16 +70,16 @@
         "sourceCode": "https://github.com/beejay321/myMusic_App",
         "live": "https://my-music-nine.vercel.app/",
         "description": "Music App showing Albums with tracks by Artist, when searched for. User is able to view each album, and play songs selected. ",
-        "skills": [ 
+        "skills": [
             "HTML5",
             "CSS",
-            "JavaScript",           
+            "JavaScript",
             "React",
-            "Bootstrap",            
+            "Bootstrap",
             "GIT"
         ],
         "images": [
-            "https://via.placeholder.com/600x350"
+            "https://res.cloudinary.com/dvyids286/image/upload/v1661356552/portfolio/h2e0cqcphjtqgbkmbc1b.png"
         ]
     }
 ]
