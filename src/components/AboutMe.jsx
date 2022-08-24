@@ -6,7 +6,7 @@ function AboutMe(props) {
     <Container className=" aboutSection py-5">
       <Row className="  py-5">
         <div>
-          <h5 className=" title d-flex py-3 justify-content-center">ABOUT</h5>
+          <h5 className=" title d-flex py-3 justify-content-center">ABOUT ME</h5>
         </div>
         {/* </Row>
       <Row> */}
