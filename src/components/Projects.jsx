@@ -12,8 +12,8 @@ function Projects(props) {
         </div>
       </Row>
 
-      <EachProject project={projects[3]} />
       <EachProject project={projects[0]} />
+      <EachProject project={projects[3]} />
       <EachProject project={projects[1]} />
     </Container>
   );
