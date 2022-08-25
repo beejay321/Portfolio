@@ -71,9 +71,9 @@ function ContactMe(props) {
           </div>
         </Row>
       ) : (
-        <Row className="d-flex  justify-content-center">
+        <Row className="contact-me ">
           <div>
-            <h5 className=" title d-flex pb-3 justify-content-center">CONTACT ME</h5>
+            <h5 className=" sections d-flex pb-3 justify-content-center">CONTACT ME</h5>
           </div>
           <Col xs={10} md={4} className="contact-input">
             <Form.Group className="mb-3" controlId="formGridAddress1">
