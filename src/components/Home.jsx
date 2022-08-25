@@ -9,29 +9,18 @@ import AboutMe from "./AboutMe";
 function Home(props) {
   return (
     <>
-      <Container fluid className=" heading  ">
-        <Row className=" heading-box   ">
+      {/* <Container fluid className=" heading  "> */}
+        <div className="heading-box">
           <div>
-            <h1 className="name ">OLUWABUSOLA JIBODU</h1>
-            <h5 className="title ">FULL STACK DEVELOPER</h5>
-            <div className=" nav-links  ">
-              <a href="/#skills">
-                <span>SKILLS</span>
-              </a>
-              <a href="/#projects">
-                <span>PROJECTS</span>
-              </a>
-              <a href="/#about">
-                <span>ABOUT</span>
-              </a>
-              <a href="/#contact">
-                <span> CONTACT ME</span>
-              </a>
-            </div>
+            <h1 className="name ">Oluwabusola Jibodu</h1>
+            <span className="position ">SOFTWARE DEVELOPER</span>
           </div>
-        </Row>
-      </Container>
+        </div>
+      {/* </Container> */}
       {/* <Container> */}
+      <Row id="about">
+        <AboutMe />
+      </Row>
       <Row id="skills">
         <Skills />
       </Row>
@@ -39,9 +28,6 @@ function Home(props) {
       <div id="projects">
         <Projects />
       </div>{" "}
-      <Row id="about">
-        <AboutMe />
-      </Row>
       <Row id="contact">
         <ContactMe />
       </Row>
