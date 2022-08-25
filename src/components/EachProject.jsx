@@ -5,7 +5,7 @@ function EachProject({ project }) {
   return (
     <>
       <Row className=" project-div mx-2">
-        <Col xs={{ offset: 1, span: 10 }} lg={4} className="mb-3">
+        <Col xs={12} lg={4} className="mb-3">
           <Row>
             {" "}
             <h6 className="project-title">{project.projectTitle}</h6>
