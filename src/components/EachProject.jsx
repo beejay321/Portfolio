@@ -4,16 +4,16 @@ import { Row, Col, Carousel } from "react-bootstrap";
 function EachProject({ project }) {
   return (
     <>
-      <Row className=" project-div pb-5">
-        <Col xs={10} lg={5}>
+      <Row className=" project-div mx-2">
+        <Col xs={{ offset: 1, span: 10 }} lg={4} className="mb-3">
           <Row>
             {" "}
             <h6 className="project-title">{project.projectTitle}</h6>
           </Row>
-          <Row className=" d-grid  pb-2">
+          <Row className="d-grid  pb-2">
             <p>
               <span className="collaborator">{project.collaborators}</span>
-              <span>{project.description} </span>
+              <span className="description">{project.description} </span>
             </p>
           </Row>
           <Row className=" skills-used  pb-3 ">
