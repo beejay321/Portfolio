@@ -11,35 +11,34 @@ function NavBar(props) {
   };
   return (
     <>
-      <Navbar className="nav-bar">
-        <Navbar.Brand className="nav-brand" href="#home">
+      <div className="nav-bar">
+        <div className="nav-brand" href="#home">
           Oluwabusola Jibodu
-        </Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+        </div>
+        <div className=" d-flex justify-content-end ">
           <div className="nav-menu">
-            {hideMenu && (
-              <div className=" nav-links  ">
-                <a href="#about">
-                  <span>ABOUT</span>
-                </a>
-                <a href="#skills">
-                  <span>SKILLS</span>
-                </a>
-                <a href="#projects">
-                  <span>PROJECTS</span>
-                </a>
-                <a href="#contact">
-                  <span> CONTACT ME</span>
-                </a>
-              </div>
-            )}
+            {/* {hideMenu && ( */}
+            <div className=" nav-links  ">
+              <a href="#about">
+                <span>ABOUT</span>
+              </a>
+              <a href="#skills">
+                <span>SKILLS</span>
+              </a>
+              <a href="#projects">
+                <span>PROJECTS</span>
+              </a>
+              <a href="#contact">
+                <span> CONTACT ME</span>
+              </a>
+            </div>
+            {/* )} */}
             <div className="menubtn" onClick={Toggle}>
               MENU
             </div>
           </div>
-        </Navbar.Collapse>
-      </Navbar>
+        </div>
+      </div>
     </>
   );
 }
