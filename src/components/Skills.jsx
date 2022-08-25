@@ -9,7 +9,7 @@ function Skills(props) {
           <div>
             <h5 className=" sections d-flex justify-content-center pb-1">SKILLS</h5>
           </div>
-          <Col xs={12} lg={3} className=" d-grid skills-div  justify-content-center">
+          <Col xs={{ offset: 1, span: 10 }} lg={3} className=" d-grid skills-div  justify-content-center">
             <div className="skill">
               <p className="skill-category">FRONTEND</p>
               <span>HTML5</span>
@@ -19,7 +19,7 @@ function Skills(props) {
               <span>React|Redux</span>
             </div>
           </Col>
-          <Col xs={12} lg={3} className=" d-grid skills-div justify-content-center ">
+          <Col xs={{ offset: 1, span: 10 }} lg={3} className=" d-grid skills-div justify-content-center ">
             <div className="skill">
               <p className="skill-category">TOOLS</p>
               <span>Git</span>
@@ -29,7 +29,7 @@ function Skills(props) {
               <span>Bootstrap</span>
             </div>
           </Col>
-          <Col xs={12} lg={3} className=" d-grid skills-div justify-content-center ">
+          <Col xs={{ offset: 1, span: 10 }} lg={3} className=" d-grid skills-div justify-content-center ">
             <div className="skill">
               <p className="skill-category">BACKEND</p>
               <span>Node</span>
