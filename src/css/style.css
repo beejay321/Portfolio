@@ -91,6 +91,11 @@ a {
   .nav-links span {
     display: none;
   }
+  .nav-brand {
+   
+    font-size: 18px;
+   
+  }
 
   /* .menubtn {
     display: flex;
