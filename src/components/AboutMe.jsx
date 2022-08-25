@@ -5,13 +5,13 @@ function AboutMe(props) {
   return (
     <Container className=" aboutSection py-5">
       <Row className="  py-5">
-        <Col xs={{ offset: 2, span: 3 }}>
-          <div className="myPic-div">
+        <Col xs={10} lg={{ offset: 2, span: 3 }}>
+          <div className="myPic-div pb-5">
             {/* <Image className="myPic" src="https://via.placeholder.com/300x450" alt="" roundedCircle /> */}
             <Image className="myPic" src="https://res.cloudinary.com/dvyids286/image/upload/v1661385850/portfolio/fzbl9xqyp8qn1h8dmq6l.jpg" alt="" roundedCircle />
           </div>{" "}
         </Col>
-        <Col className="aboutText" xs={6}>
+        <Col className="aboutText" xs={10} lg={{ offset: 1, span: 6 }}>
           <div>
             <div>
               <h5 className=" aboutText-title pb-3 ">Hi I'm Oluwabusola Jibodu </h5>
