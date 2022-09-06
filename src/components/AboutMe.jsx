@@ -19,8 +19,8 @@ function AboutMe(props) {
 
             <div className="aboutText d-flex gap-2">
               <span>
-                An architect turned web developer. In 2021, I took a leap and trained in Full stack web development at Strive School. I quickly absorbed new concepts, while bringing ambitious ideas
-                and a positive attitude to every challenge. When I'm not coding, I'm usually travelling, trying new recipes, or watching a movie.
+                An architect turned web developer. In 2021, I took a leap and trained in Full stack web development at Epicode (FKA Strive) School. I quickly absorbed new concepts, while bringing
+                ambitious ideas and a positive attitude to every challenge. When I'm not coding, I'm usually travelling, trying new recipes, or watching a movie.
               </span>
             </div>
             <div className=" resume d-flex gap-2">
