@@ -13,7 +13,9 @@ function Home(props) {
       <div className="heading-box">
         <div>
           <h1 className="name ">Oluwabusola Ilechukwu</h1>
-          <span className="position ">SOFTWARE DEVELOPER</span>
+          <span className="position ">
+            SOFTWARE DEVELOPER <br /> with a focus on Frontend
+          </span>
         </div>
       </div>
       {/* </Container> */}
