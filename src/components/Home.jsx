@@ -10,12 +10,12 @@ function Home(props) {
   return (
     <>
       {/* <Container fluid className=" heading  "> */}
-        <div className="heading-box">
-          <div>
-            <h1 className="name ">Oluwabusola Jibodu</h1>
-            <span className="position ">SOFTWARE DEVELOPER</span>
-          </div>
+      <div className="heading-box">
+        <div>
+          <h1 className="name ">Oluwabusola Ilechukwu</h1>
+          <span className="position ">SOFTWARE DEVELOPER</span>
         </div>
+      </div>
       {/* </Container> */}
       {/* <Container> */}
       <Row id="about">
