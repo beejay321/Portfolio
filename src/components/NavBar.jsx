@@ -13,7 +13,7 @@ function NavBar(props) {
     <>
       <div className="nav-bar">
         <div className="nav-brand" href="#home">
-          Oluwabusola Jibodu
+          Oluwabusola Ilechukwu
         </div>
         <div className=" d-flex justify-content-end ">
           <div className="nav-menu">
