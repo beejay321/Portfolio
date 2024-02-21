@@ -14,7 +14,7 @@ function AboutMe(props) {
         <Col className="aboutText" xs={{ offset: 1, span: 10 }} lg={{ offset: 1, span: 6 }}>
           <div>
             <div>
-              <h5 className="aboutText-title pb-3">Hi I'm Oluwabusola Jibodu </h5>
+              <h5 className="aboutText-title pb-3">Hi I'm Oluwabusola Ilechukwu </h5>
             </div>
 
             <div className="aboutText d-flex gap-2">
